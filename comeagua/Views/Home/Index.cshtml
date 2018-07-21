@@ -1,33 +1,11 @@
 ﻿@{
- 
+    ViewBag.Title = "Index";
 }
+<div>
+    @Html.ActionLink("Login", "Login")
+</div>
 
 
-<input type="button" value="Login com instagram" id="myCheck" OnClick="myFunction()">
 
-<script>
-    // On mouse-over, execute myFunction
-    function myFunction() {
-        
-        var client_id = ConfigurationManager.AppSettings["ClientId"].toString();
-        var redirect_uri = ConfigurationManager.AppSettings["RedirectURI"].toString();
-        Response.Redirect("https://api.instagram.com/oauth/authorize/?client_id=" + client_id
-            + "&redirect_uri=" + redirect_uri + "&response_type=code");
-        page_load();// Click on the checkbox
-    }
-</script>
 
-<body>
-    <form   id = "form1" runat = "server">
-      
 
-        <div>
-            <label  id ="lblusername" Text = ""  runat ="server">
-               
-            </label>
-        </div>
-        <div>
-            <img id="ProfilePic" runat ="server" />
-        </div>
-    </form>
-</body>
