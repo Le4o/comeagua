@@ -39,8 +39,8 @@ namespace comeagua.Controllers
                 // int id = (int) jsResult["user"]["id"];
                 string imageurl = (string)jsResult["user"]["profile_picture"];
                 string fullname = (string)jsResult["user"]["full_name"];
-                lblusername.Text = fullname;
-                ProfilePic.ImageUrl = imageurl;             
+              //  lblusername.Text = fullname;
+               // ProfilePic.ImageUrl = imageurl;             
             }
             catch (Exception ex)
             {

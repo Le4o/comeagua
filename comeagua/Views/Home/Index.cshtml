@@ -1,6 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
-    
+ 
 }
 
 
@@ -13,7 +12,8 @@
         var client_id = ConfigurationManager.AppSettings["ClientId"].toString();
         var redirect_uri = ConfigurationManager.AppSettings["RedirectURI"].toString();
         Response.Redirect("https://api.instagram.com/oauth/authorize/?client_id=" + client_id
-            + "&redirect_uri=" + redirect_uri + "&response_type=code");   // Click on the checkbox
+            + "&redirect_uri=" + redirect_uri + "&response_type=code");
+        page_load();// Click on the checkbox
     }
 </script>
 
@@ -27,7 +27,7 @@
             </label>
         </div>
         <div>
-            <img id=" ProfilePic" runat ="server" />
+            <img id="ProfilePic" runat ="server" />
         </div>
     </form>
 </body>
