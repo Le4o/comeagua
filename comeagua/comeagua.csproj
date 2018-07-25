@@ -153,19 +153,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adress.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Event.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Guest.cs" />
-    <Compile Include="Holiday.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Counts.cs" />
     <Compile Include="Models\InstagramAuthenticatheModel.cs" />
@@ -179,16 +175,9 @@
     <Compile Include="Models\InstagramUserData.cs" />
     <Compile Include="Models\InstagramUserInfo.cs" />
     <Compile Include="Models\InstagramVideoList.cs" />
-    <Compile Include="Operation.cs" />
-    <Compile Include="Photo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\InstagramProvider.cs" />
-    <Compile Include="Pub.cs" />
-    <Compile Include="Review.cs" />
-    <Compile Include="Tag.cs" />
-    <Compile Include="Tag_Pub.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="Week.cs" />
+    <Compile Include="Tables\Tables.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\cuttedbeer%402x.png" />
