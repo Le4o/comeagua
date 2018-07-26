@@ -11,11 +11,6 @@ namespace comeagua
     public partial class Context : DbContext
     {
 
-        public Context() : base("comeaguadb")
-        {
-
-        }
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
