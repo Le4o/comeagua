@@ -9,7 +9,7 @@ namespace comeagua.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = false; 
         }
 
         protected override void Seed(comeagua.Context context)
